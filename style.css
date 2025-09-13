@@ -47,10 +47,10 @@ h2{
 }
 
 .btn{
-    width: 46vw;
-    max-width: 360px;
-    height: 46vw;
-    max-height: 360px;
+    width: 41.4vw; /* ~10% smaller */
+    max-width: 324px; /* 360 * 0.9 */
+    height: 41.4vw;
+    max-height: 324px;
     border-radius: 18%;
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ h2{
 }
 
 @media (min-width: 900px){
-    .btn{ width: 360px; height: 360px }
+    .btn{ width: 324px; height: 324px }
 }
 
 @media (max-width: 420px){
@@ -108,13 +108,13 @@ h2{
     h1{ font-size: 1.4rem }
     h2{ font-size: 0.95rem }
     .btn-container{ grid-template-columns: 1fr; gap: 0.9rem }
-    .btn{ width: 82vw; height: 82vw; max-width: 420px; max-height: 420px; border-radius: 14% }
+    .btn{ width: 73.8vw; height: 73.8vw; max-width: 378px; max-height: 378px; border-radius: 14% }
     .btn{ font-size: 1.1rem }
 }
 
 @media (max-width: 360px){
     body{ padding: 1.5rem 0.5rem }
-    .btn{ width: 88vw; height: 88vw; border-radius: 16% }
+    .btn{ width: 79.2vw; height: 79.2vw; border-radius: 16% }
     h1{ font-size: 1.2rem }
     h2{ font-size: 0.9rem }
 }
