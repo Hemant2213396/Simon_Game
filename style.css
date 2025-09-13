@@ -101,3 +101,20 @@ h2{
     h1{ font-size: 1.5rem }
     .btn{ border-radius: 22%; }
 }
+
+/* Tablet and small phones */
+@media (max-width: 640px){
+    .container{ padding: 0 1rem }
+    h1{ font-size: 1.4rem }
+    h2{ font-size: 0.95rem }
+    .btn-container{ grid-template-columns: 1fr; gap: 0.9rem }
+    .btn{ width: 82vw; height: 82vw; max-width: 420px; max-height: 420px; border-radius: 14% }
+    .btn{ font-size: 1.1rem }
+}
+
+@media (max-width: 360px){
+    body{ padding: 1.5rem 0.5rem }
+    .btn{ width: 88vw; height: 88vw; border-radius: 16% }
+    h1{ font-size: 1.2rem }
+    h2{ font-size: 0.9rem }
+}
